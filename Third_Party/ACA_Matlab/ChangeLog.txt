@@ -1,0 +1,20 @@
+Revision: 271, 2014-02-11
+- fixed NaN results for a number of features
+
+Revision: 270, 2013-10-13
+- FeatureSpectralMfccs.m: fix for low sample rates
+- FeatureSpectralPitchChroma.m: fix for low sample rates
+- FeatureTimePredictivityRatio.m: fixed (?) missing variable
+
+Revision: 264, 2013-07-29
+- FeatureSpectralCentroid.m: updated comment
+- FeatureSpectralKurtosis.m: added (untested) alternative definition of Spectral Kurtosis
+- FeatureSpectralSkewness.m: added (untested) alternative definition of Spectral Skewness
+
+Revision: 227, 2012-11-08
+- FeatureSpectralCentroid.m: avoid NaN when Denominator could get 0
+- ComputeFeature.m: fix normalization
+- FeatureTimeRms.m: small simplification
+
+Revision: 216, 2012-09-23
+- NoveltyFlux.m: fixed return value
